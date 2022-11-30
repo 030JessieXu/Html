@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Reset END*/
+
+.name p{
+    margin-top:40px;
+    margin-left:360px;
+    margin-right:300px;
+    margin-bottom: 10px;
+    width: 320px;
+    height:50px;
+    
+    font-size: 80px;
+    font-family:SF Pro Text, Regular;
+    text-align: left;
+    line-height:95px;
+}
+
+.border{
+    margin-top:50px;
+    margin-left:360px;
+    margin-right:300px;
+    border-top:1px solid black;
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
+.pic{
+    margin-top:50px;
+    margin-bottom: 10px;
+    width: 200px;
+    height:200px;
+    /*圓形角度圖片*/
+    -moz-border-radius:100px;
+    border-radius:100px;
+
+}
+.presonalTitle{
+    margin-top:60px;
+    margin-left:360px;
+    margin-right:300px;
+
+    font-size:32px;
+    font-weight: bold;
+    line-height:48px;
+
+    border-bottom:1px solid black;
+}
+
+.RedFont{
+    margin-top:60px;
+    margin-left:10px;
+    margin-right:300px;
+
+    color: #A00404;
+    font-size: 24px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.presonalBody{
+    margin-top:25px;
+    margin-left:360px;
+    margin-right:300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size:24px;
+    font-weight: lighter;
+    line-height:36px;
+}
+.presonalTitle02{
+    margin-top:70px;
+    margin-left:360px;
+    margin-right:300px;
+
+    font-size:32px;
+    font-weight: bold;
+    line-height:48px;
+
+    border-bottom:1px solid black;
+}
+/*技能CSS*/
+.Skil{
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+    height: 400px;
+    width: 1920px;
+    background-color:#415165;
+    color:white;
+
+}
+.Title{
+    margin-left:463px;
+    margin-right: 463px;
+    margin-bottom: 36px;
+
+    text-align: center;
+    font-size:32px; 
+    line-height:48px;
+    border-bottom:1px solid white;
+}
+
+.Content{
+    margin-left:876px;
+    margin-right:844px;
+
+    text-align:left;
+    border-left:1px solid white;
+
+    font-size: 24px;
+    font-weight:light;
+    line-height:36px;;
+}
+/*工作經驗*/
+.work{
+    margin-top: 48px;
+    margin-left:384px;
+    height: 654px;
+    
+    border-left:1px solid #96A9C4;
+}
+.workLine1{
+    margin-left:36px;
+    font-size: 24px;
+    font-family:PingFang 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:normal;
+    text-align: 24px;
+}
+.workLine2{
+    margin-left:36px;
+
+    width: 642px;
+    height: 150px;
+
+    font-size: 20px;
+    font-family:'PingFang TC';
+    font-weight:normal;
+    line-height: 30px;
+    text-align:left;
+    letter-spacing: 0px;
+}
+.workLine3{
+    margin-left:36px;
+    margin-top: 36px;
+
+   /* width:377px;
+    height: 36px;*/
+    font-size: 24px;
+    font-family:PingFang 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    text-align:left;
+    letter-spacing: 0px;
+}
+.workk{
+   line-height: 36px;
+}
+/*聯絡方式CONTACT METHOD*/
+.contact{
+
+    height: 400px;
+    width: 1920px;
+    background-color:#415165;
+    color:white;
+}
+.contactTitle{
+
+    margin-left:463px;
+    margin-right:463px;
+
+    text-align: center;
+    font-size:32px; 
+    line-height:48px;
+    border-bottom:1px solid white;
+}
+.contactBody{
+    margin-left:696px;
+    margin-right: 694px;
+
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: light;
+    line-height:2;
+    
+}
+.contactpic{
+    margin-top: 24px;
+    margin-left:696px;
+    margin-right: 694px;
+
+    width: 192x;
+    height: 48px;
+
+    text-align: center;
+    line-height:2.5;
+    letter-spacing:24px;
+    
+}
